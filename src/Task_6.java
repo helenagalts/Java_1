@@ -7,13 +7,14 @@ public class Task_6 {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Введите X");
-        int x = in.nextInt();
+        double x = in.nextDouble();
         System.out.println("Введите Y");
-        int y = in.nextInt();
+        double y = in.nextDouble();
         System.out.println("Введите Z");
-        int z = in.nextInt();
-        int av = (x + y + z)/ 3;
-        int rez = av / 2;
+        double z = in.nextDouble();
+        double av = (x + y + z)/ 3;
+        double rez = Math.floor(av / 2);
+        
 
         if (rez > 3)
             System.out.println("Программа выполнена корректно");

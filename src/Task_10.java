@@ -17,13 +17,13 @@ public class Task_10 {
                 array[i][j] = in.nextInt();
             }
         }
-        for (int i = 0; i < str; i++) {
+        for (int i = 0; i < 1; i++) {
             for (int j = 0; j < stb; j++) {
                 array[i][j] = array[i][j] * 3;
             }
         }
-        System.out.println("Элементы матрицы, умноженные на 3:");
-        for (int i = 0; i < str; i++) {
+        System.out.println("Элементы первой строки матрицы, умноженные на 3:");
+        for (int i = 0; i < 1; i++) {
             for (int j = 0; j < stb; j++) {
                 System.out.print(array[i][j]);
                 System.out.print(" ");
